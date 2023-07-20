@@ -25,7 +25,10 @@ header {
     z-index: 999;
     display: inline-block;
     width: 100%;
-}header .logo a {
+    left: 0;
+}
+
+header .logo a {
     font-size: 25px;
     font-weight: bold;
     color: #000;
@@ -135,7 +138,6 @@ header .row {
     from {
         top: -20px;
     }
-
     to {
         top: 0px;
     }
@@ -605,14 +607,18 @@ footer p {
     opacity: 1;
     border: 0 !important;
 }
-.experience .owl-dots button.owl-dot, .testimonials .owl-dots button.owl-dot {
+
+.experience .owl-dots button.owl-dot,
+.testimonials .owl-dots button.owl-dot {
     background: #198754 !important;
 }
 
-.experience .owl-dots button.owl-dot.active, .testimonials .owl-dots button.owl-dot.active {
+.experience .owl-dots button.owl-dot.active,
+.testimonials .owl-dots button.owl-dot.active {
     background: #f5bc07 !important;
     transition: 0.5s all linear;
 }
+
 .heading {
     margin: 0px 0px 10px;
     padding: 0px 15px;
@@ -773,7 +779,9 @@ footer p {
     text-align: center;
     margin: 0 auto;
     padding: 0;
-}.latest-blog {
+}
+
+.latest-blog {
     position: relative;
     margin: 0;
     padding: 0;
@@ -875,16 +883,17 @@ footer p {
 }
 
 
-
-
 /*--contact us--*/
+
 .contact-us {
     margin: 0px;
     padding: 0px 0px 30px;
     background: #f2f2f2;
 }
 
+
 /*--maping css--*/
+
 .mapouter {
     position: relative;
     text-align: right;
@@ -973,7 +982,6 @@ footer p {
 .contact-text p:hover {
     color: #16a085;
 }
-
 
 .contact-us a {
     margin: 0;
