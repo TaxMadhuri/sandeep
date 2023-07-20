@@ -2,6 +2,7 @@ body {
     font-family: Poppins, sans-serif;
     margin: 0;
     padding: 0;
+    background: #f2f2f2;
 }
 
 img {
@@ -24,6 +25,14 @@ header {
     z-index: 999;
     display: inline-block;
     width: 100%;
+}header .logo a {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+}
+
+.fixed-header .logo a {
+    color: #fff;
 }
 
 header .logo {
@@ -126,6 +135,7 @@ header .row {
     from {
         top: -20px;
     }
+
     to {
         top: 0px;
     }
@@ -300,7 +310,7 @@ header .row {
 .aboutus {
     position: relative;
     margin: 0px 0px 0px;
-    padding: 30px 0px;
+    padding: 30px 0px 0px;
     display: inline-block;
     width: 100%;
     background: #f2f2f2;
@@ -442,7 +452,7 @@ footer p {
 
 .experience,
 .testimonials {
-    padding: 0px 0px 30px;
+    padding: 30px 0px 0px;
     width: 100%;
     background: #f2f2f2;
     margin: 0;
@@ -581,6 +591,7 @@ footer p {
 
 .experience .owl-dots button.owl-dot,
 .testimonials .owl-dots button.owl-dot {
+    transition: 0.5s all linear;
     width: 10px;
     height: 10px;
     margin: 0 auto;
@@ -590,8 +601,18 @@ footer p {
     padding: 0 !important;
     top: 0;
     line-height: unset !important;
+    box-shadow: unset !important;
+    opacity: 1;
+    border: 0 !important;
+}
+.experience .owl-dots button.owl-dot, .testimonials .owl-dots button.owl-dot {
+    background: #198754 !important;
 }
 
+.experience .owl-dots button.owl-dot.active, .testimonials .owl-dots button.owl-dot.active {
+    background: #f5bc07 !important;
+    transition: 0.5s all linear;
+}
 .heading {
     margin: 0px 0px 10px;
     padding: 0px 15px;
@@ -636,8 +657,10 @@ footer p {
 }
 
 .blog-img img {
-    width: 200px !important;
-    height: 230px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
 }
 
 .blog-box .blog-text h6 {
@@ -750,20 +773,26 @@ footer p {
     text-align: center;
     margin: 0 auto;
     padding: 0;
+}.latest-blog {
+    position: relative;
+    margin: 0;
+    padding: 0;
 }
 
 .experience button,
 .testimonials button {
-    background: #384345 !important;
-    width: 35px;
-    height: 35px;
-    border-radius: 6px;
+    background: #ffffff !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
     position: absolute;
     top: 30%;
     margin: 0;
-    font-size: 30px !important;
-    color: #fff !important;
-    line-height: 25px !important;
+    font-size: 16px !important;
+    color: #000 !important;
+    box-shadow: 0px 3px 5px #d4d4d47d;
+    line-height: 40px !important;
+    border: 1px solid #dedede !important;
 }
 
 .experience .owl-dots,
@@ -840,6 +869,233 @@ footer p {
     color: #f5df4e;
     font-size: 14px;
 }
+
 .book_images img {
     width: 140px !important;
+}
+
+
+
+
+/*--contact us--*/
+.contact-us {
+    margin: 0px;
+    padding: 0px 0px 30px;
+    background: #f2f2f2;
+}
+
+/*--maping css--*/
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 100%;
+    height: 65vh;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 100%;
+    height: 100%;
+}
+
+.gmap_iframe {
+    width: 100% !important;
+    height: 80vh !important;
+}
+
+.contact-us span {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    font-size: 26px;
+    transform: rotate(0deg);
+    background-image: linear-gradient(180deg, #FEAA4745 0%, #4787FA00 100%);
+    color: #feaa47;
+    width: 75px;
+    display: inline-block;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    z-index: 9;
+}
+
+.contact-icon {
+    margin: 0px 10px;
+    padding: 0px;
+}
+
+.contact-icon img {
+    width: 45px;
+}
+
+.contact-icon a {
+    font-size: 32px;
+    color: #000;
+}
+
+.contact-text {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    display: inline-block;
+}
+
+.contact-text h6 {
+    margin: 0px 0px 5px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    color: #0a5e01;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.contact-text p {
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    margin: 0;
+}
+
+.contact-text h6:hover {
+    color: #f5bc07;
+}
+
+.contact-text p:hover {
+    color: #16a085;
+}
+
+
+.contact-us a {
+    margin: 0;
+    display: flex;
+    width: 100%;
+    background: #ffff;
+    box-shadow: 0 5px 10px #cbcbcb;
+    border-radius: 5px;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: center;
+    gap: 15px;
+    margin-top: 0;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+    margin-top: -40px;
+}
+
+.contact-us a:after,
+.contact-us a:before {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: #cdcdcd;
+    border-radius: 80%;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.contact-us a:after {
+    top: -10px;
+    left: -10px;
+}
+
+.contact-us a:before {
+    bottom: -10px;
+    right: -10px;
+}
+
+.contactformsecion {
+    margin: 0px 0px 0;
+    padding: 50px 0px;
+    background: url(../images/form-back.jpg);
+    background-position: top, center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+}
+
+.contactformsecion h4 {
+    text-align: center;
+    color: #fff;
+    padding: 10px 0px;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+}
+
+.contactformsecion .form-group {
+    margin: 0px 0px 29px;
+}
+
+.contactformsecion .form-control {
+    color: #000;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 45px;
+    background: #ffffff5e;
+    padding: 0px 10px;
+}
+
+.contactformsecion .form-group label {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.contactformsecion .form-group textarea#UMSG {
+    height: 150px;
+    overflow-y: hidden;
+    padding: 15px 10px;
+}
+
+.contactformsecion button.btn-button {
+    width: max-content;
+    background: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 80px;
+    border-radius: 4px;
+    border: none;
+    margin: 0 auto;
+    display: block;
+}
+
+.contactformsecion .button-section {
+    margin: 10px auto;
+    padding: 0px;
+    width: 100%;
+}
+
+.contactformsecion .form-control::placeholder {
+    color: #fff;
+}
+
+.contactformsecion:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.pading-bootm-sec {
+    padding-bottom: 30px;
 }
