@@ -15,6 +15,9 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style: none;
+}
 
 /*-- header --*/
 
@@ -138,6 +141,7 @@ header .row {
     from {
         top: -20px;
     }
+
     to {
         top: 0px;
     }
@@ -636,7 +640,7 @@ footer p {
     color: #000;
 }
 
-.heading a {
+/* .heading a {
     border: 1px solid #000;
     color: #000;
     padding: 7px 25px;
@@ -644,7 +648,7 @@ footer p {
     font-weight: 600;
     letter-spacing: 0.5px;
     border-radius: 4px;
-}
+} */
 
 .blog-box {
     margin: 10px 0px;
@@ -1106,4 +1110,231 @@ footer p {
 
 .pading-bootm-sec {
     padding-bottom: 30px;
+}
+
+/*--Consultancy--*/
+.Consultancy {
+    border: 1px solid #f2f2f2;
+    margin: 0 auto 20px;
+    width: 100%;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.Consultancy .Consultancy-heading h2 {
+    margin: 0px;
+    padding: 10px 0px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.Consultancy .Consultancy-list {
+    margin: 0px auto 0px;
+    padding: 20px 0px;
+    border: 1px solid #f2f2f2;
+    box-shadow: 0px 3px 5px #a0a0a0;
+    background: #fff;
+    display: inline-block;
+    position: relative;
+    z-index: 9;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.Consultancy .Consultancy-list ul li a {
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #000;
+    display: inline-block;
+    width: 100%;
+}
+
+.Consultancy .Consultancy-list ul li a h3 {
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+    margin: 0px 0px 15px;
+    padding: 0px 0px;
+    color: #000;
+    line-height: 25px;
+}
+
+.Consultancy .Consultancy-list ul li a p {
+    color: #222;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 29px;
+    padding: 0px;
+    margin: 0px 0px 15px;
+    overflow: hidden;
+    letter-spacing: 0.3px;
+}
+
+.Consultancy .Consultancy-list ul li a span {
+    background: #ffff;
+    border: 1px solid #eae5e5;
+    margin: 5px 0px 0px;
+    padding: 8px 60px;
+    border-radius: 20px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.Consultancy .Consultancy-list ul li a span:hover {
+    background: #000;
+    color: #fff;
+    border: none;
+}
+
+.Consultancy-images {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+    z-index: 2;
+    height: 300px;
+}
+
+.Consultancy-images h2 {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    color: #fff;
+    z-index: 2;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.Consultancy-images:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.consultancy-box {
+    position: relative;
+    margin: 0px 0px 0px;
+    padding: 0;
+    display: inline-block;
+    z-index: 3;
+    width: 100%;
+    transform: translateY(-50px);
+}
+
+.Consultancy-images img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.Consultancy .Consultancy-list li {
+    border-left: 5px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-top: 1px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.Consultancy .Consultancy-list ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 50px;
+}
+
+/*--training--*/
+.training {
+    margin: 0 auto 20px;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 20%);
+}
+
+.training h3 {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 15px;
+    letter-spacing: 0.3px;
+}
+
+.training p {
+    color: #222;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 29px;
+    padding: 0px;
+    margin: 0px 0px 15px;
+    letter-spacing: 0.3px;
+}
+
+.training-list ul {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.training-list ul li a h5 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.training-list ul li {
+    padding: 15px;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgb(227 227 227 / 31%);
+    margin-bottom: 5px;
+    border: 4px solid #ececec;
+}
+
+.training-list ul li a p {
+    color: #222;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    letter-spacing: 0.3px;
+}
+
+.view-button-section {
+    text-align: center;
+    color: #16a085;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.training-list ul li:nth-child(even) {
+    border-top: 4px solid #ffc107;
+    border-left: 4px solid #ffc107;
+}
+
+.training-list ul li:nth-child(odd) {
+    border-bottom: 4px solid #1aa187;
+    border-left: 4px solid #1aa187;
+}
+
+.view-button-section ul {
+    display: none;
+    transition: 0.5s all linear;
+
+}
+
+.view-button-section.expanded ul {
+    display: grid;
+    transition: 0.5s all linear;
 }
