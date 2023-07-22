@@ -19,6 +19,7 @@ li {
     list-style: none;
 }
 
+
 /*-- header --*/
 
 header {
@@ -85,8 +86,8 @@ header ul li {
 
 header nav li a {
     color: #252b33;
-    padding: 0 0.75em;
-    font-size: 15px;
+    padding: 0 0.50em;
+    font-size: 14px;
     font-weight: 600;
     margin: 0;
     line-height: 50px;
@@ -141,7 +142,6 @@ header .row {
     from {
         top: -20px;
     }
-
     to {
         top: 0px;
     }
@@ -362,7 +362,7 @@ header .row {
 }
 
 .aboutus p {
-    font-size: 1.0rem;
+    font-size: 0.9rem;
     line-height: 1.8;
     color: #212529;
     text-align: left;
@@ -407,7 +407,7 @@ header .row {
 }
 
 .aboutus .fombox {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
@@ -423,7 +423,7 @@ header .row {
 
 .aboutus .fombox h5 {
     text-align: left;
-    font-size: 1.125rem;
+    font-size: 0.9rem;
     font-weight: 800;
     color: #212529;
     margin-top: 10px;
@@ -633,12 +633,13 @@ footer p {
 }
 
 .heading h3 {
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 700;
     margin: 0;
     padding: 0;
     color: #000;
 }
+
 
 /* .heading a {
     border: 1px solid #000;
@@ -674,8 +675,8 @@ footer p {
 }
 
 .blog-box .blog-text h6 {
-    font-size: 15px;
-    margin: 10px 0px 10px;
+    font-size: 16px;
+    margin: 0px 0px 10px;
     padding: 0px 0px;
     color: #000;
     font-weight: 700;
@@ -684,7 +685,7 @@ footer p {
 
 .blog-box .blog-text p {
     font-size: 14px;
-    line-height: 27px;
+    line-height: 25px;
     padding: 0px;
     margin: 0px 0px 15px;
     display: -webkit-box;
@@ -841,11 +842,11 @@ footer p {
     border-radius: 6px;
     padding: 0px;
     box-shadow: 0px 5px 10px #ebebeb;
-    gap: 10px;
+    gap: 15px;
 }
 
 .book-box-item .book_images {
-    width: 250px;
+    width: 200px;
     position: relative;
     margin: 0;
     padding: 0px 10px;
@@ -854,12 +855,12 @@ footer p {
 }
 
 .book_text h4 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
 }
 
 .book_text p {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 25px;
     letter-spacing: 0.3px;
     margin-bottom: 10px;
@@ -870,15 +871,15 @@ footer p {
 }
 
 .book_text h6 {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
-    line-height: 23px;
+    line-height: 20px;
     letter-spacing: 0.2px;
     margin: 0px 0px 10px;
 }
 
 .rating span {
-    color: #f5df4e;
+    color: #ff9b00;
     font-size: 14px;
 }
 
@@ -1042,10 +1043,10 @@ footer p {
     text-align: center;
     color: #fff;
     padding: 10px 0px;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 600;
     letter-spacing: 0.5px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .contactformsecion .form-group {
@@ -1112,7 +1113,9 @@ footer p {
     padding-bottom: 30px;
 }
 
+
 /*--Consultancy--*/
+
 .Consultancy {
     border: 1px solid #f2f2f2;
     margin: 0 auto 20px;
@@ -1153,19 +1156,19 @@ footer p {
     font-size: 18px;
     font-weight: 800;
     letter-spacing: 0.3px;
-    margin: 0px 0px 15px;
+    margin: 0px 0px 10px;
     padding: 0px 0px;
     color: #000;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 .Consultancy .Consultancy-list ul li a p {
     color: #222;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 29px;
+    font-size: 14px;
+    line-height: 25px;
     padding: 0px;
-    margin: 0px 0px 15px;
+    margin: 0px 0px 10px;
     overflow: hidden;
     letter-spacing: 0.3px;
 }
@@ -1173,7 +1176,7 @@ footer p {
 .Consultancy .Consultancy-list ul li a span {
     background: #ffff;
     border: 1px solid #eae5e5;
-    margin: 5px 0px 0px;
+    margin: 0px 0px 0px;
     padding: 8px 60px;
     border-radius: 20px;
     font-size: 16px;
@@ -1238,9 +1241,9 @@ footer p {
 }
 
 .Consultancy .Consultancy-list li {
-    border-left: 5px solid #ccc;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+    border-left: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
     padding-top: 1px;
     width: 100%;
     display: inline-block;
@@ -1250,10 +1253,12 @@ footer p {
 .Consultancy .Consultancy-list ul {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 50px;
+    gap: 20px;
 }
 
+
 /*--training--*/
+
 .training {
     margin: 0 auto 20px;
     background: #fff;
@@ -1273,10 +1278,10 @@ footer p {
 .training p {
     color: #222;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 29px;
     padding: 0px;
-    margin: 0px 0px 15px;
+    margin: 0px 15px 15px;
     letter-spacing: 0.3px;
 }
 
@@ -1284,6 +1289,8 @@ footer p {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 10px;
+    margin: 0;
+    padding: 0;
 }
 
 .training-list ul li a h5 {
@@ -1331,7 +1338,6 @@ footer p {
 .view-button-section ul {
     display: none;
     transition: 0.5s all linear;
-
 }
 
 .view-button-section.expanded ul {

@@ -6,6 +6,107 @@
     .ifrom-vieos {
         height: 50vh;
     }
+    .videoslider .textzon .imagesprofil {
+        width: 350px;
+        height: 350px;
+    }
+    .typingtex a.typewrite {
+        font-size: 4.0rem;
+    }
+    .book_images img {
+        width: 110px !important;
+    }
+    .book-box-item .book_images {
+        width: 130px;
+        padding: 0px 10px;
+    }
+    .book_text {
+        padding: 10px 0px;
+    }
+    .book_text h4 {
+        font-size: 13px;
+    }
+    .book_text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .book_text h6 {
+        font-size: 11px;
+        margin: 0px 0px 5px;
+    }
+    .blog-box .blog-text {
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+    .blog-box .blog-text h6 {
+        font-size: 14px;
+        margin: 0px 0px 0px;
+        line-height: 25px;
+    }
+    .blog-box .blog-text p {
+        font-size: 13px;
+        line-height: 18px;
+        margin: 0px 0px 5px;
+    }
+    .blog-icon {
+        margin-top: 0px;
+    }
+    .training-list ul {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .training-list ul li a h5 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .training li a p {
+        font-size: 13px;
+        line-height: 23px;
+        margin: 0px 0px 15px;
+    }
+    .Consultancy-images {
+        height: 250px;
+    }
+    .Consultancy-images h2 {
+        top: 35%;
+        font-size: 45px;
+    }
+    .Consultancy .Consultancy-list {
+        padding: 20px 20px;
+    }
+    .Consultancy .Consultancy-list ul {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin: 0;
+        padding: 0;
+    }
+    .Consultancy .Consultancy-list ul li a h3 {
+        font-size: 16px;
+        margin: 0px 0px 10px;
+        line-height: 25px;
+    }
+    .Consultancy .Consultancy-list ul li a p {
+        font-size: 13px;
+        line-height: 23px;
+        margin: 0px 0px 10px;
+    }
+    .Consultancy {
+        margin: 0 auto 0px;
+    }
+    .contact-us a {
+        gap: 10px;
+        margin-top: -50px;
+    }
+    .contact-text h6 {
+        margin: 0px 0px 5px;
+        font-size: 16px;
+        line-height: 10px;
+    }
+    .contact-text p {
+        font-size: 12px;
+        line-height: 16px;
+    }
 }
 
 @media(max-width:1080px) {
@@ -94,7 +195,7 @@
         margin: 10px 0px 0px;
     }
     .typingtex {
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .videoslider .prodiletext .btnzone {
         margin: 10px 0px 0px;
@@ -109,13 +210,14 @@
         height: 300px;
     }
     .aboutus p {
-        font-size: 1.0rem;
+        font-size: 0.8rem;
         line-height: 1.8;
         padding-right: 0;
     }
     .aboutus h2 {
-        font-size: 1.4rem;
-        margin: 20px 0px 15px;
+        font-size: 1.3rem;
+        margin: 10px 0px 15px;
+        line-height: 35px;
     }
     .numberexpress span {
         font-size: 7rem;
@@ -136,6 +238,7 @@
     }
     .aboutus .fombox {
         margin-top: 10px;
+        margin-bottom: 0;
     }
     .aboutus .fombox h6 {
         font-size: 13px;
@@ -185,6 +288,180 @@
         font-size: 13px;
         margin-bottom: 10px;
     }
+    .reposivedestop .col-12.col-lg-3.offset-1 {
+        margin-left: 0;
+    }
+    .row.reposivedestop {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 0px;
+    }
+    .book_images img {
+        width: 110px !important;
+    }
+    .book_text {
+        position: relative;
+        margin: 0;
+        padding: 10px 0px;
+    }
+    .book_text h4 {
+        font-size: 13px;
+        font-weight: 700;
+    }
+    .book-box-item .book_images {
+        width: 120px;
+        padding: 0px 10px;
+    }
+    .book_text p {
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0;
+        margin-bottom: 5px;
+    }
+    .book_text h6 {
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0;
+        margin: 5px 0px 5px;
+    }
+    .rating span {
+        font-size: 12px;
+    }
+    .heading h3 {
+        font-size: 15px;
+        margin: 0px 0px 10px;
+    }
+    .blog-box .blog-text h6 {
+        font-size: 14px;
+        margin: 0px 0px 10px;
+        line-height: 20px;
+    }
+    .blog-box .blog-text p {
+        font-size: 13px;
+        line-height: 22px;
+        margin: 0px 0px 10px;
+    }
+    .contactformsecion {
+        padding: 20px 0px;
+    }
+    .contactformsecion h4 {
+        padding: 10px 0px;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .contactformsecion .form-group label {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    .contactformsecion .form-control {
+        font-size: 12px;
+        padding: 0px 10px;
+    }
+    .contactformsecion .button-section {
+        margin: 0px auto;
+        padding: 0px;
+    }
+    .contactformsecion button.btn-button {
+        font-size: 16px;
+        padding: 10px 80px;
+    }
+    .blog-box .blog-text {
+        padding: 10px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+    .training-list {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .training-list ul {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+    }
+    .training-list ul li a h5 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .training p {
+        font-size: 13px;
+        line-height: 25px;
+        padding: 0px;
+        margin: 0px 0px 5px;
+    }
+    .training-list ul li:nth-child(even) {
+        border-top: 2px solid #ffc107;
+        border-left: 2px solid #ffc107;
+    }
+    .training-list ul li:nth-child(odd) {
+        border-bottom: 2px solid #1aa187;
+        border-left: 2px solid #1aa187;
+    }
+    .training-list {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    span.view-button {
+        display: block;
+        margin-top: 20px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    .Consultancy-images {
+        height: 200px;
+    }
+    .Consultancy-images h2 {
+        top: 30%;
+        font-size: 45px;
+    }
+    .Consultancy .Consultancy-list ul {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+    }
+    .Consultancy .Consultancy-list {
+        margin: 0px auto 0px;
+        padding: 20px 10px;
+    }
+    .Consultancy .Consultancy-list ul li a {
+        padding: 0px 0px 0px 15px;
+        width: 100%;
+    }
+    .Consultancy .Consultancy-list ul li a h3 {
+        font-size: 15px;
+        margin: 0px 0px 10px;
+        line-height: 25px;
+    }
+    .Consultancy .Consultancy-list ul li a p {
+        font-size: 13px;
+        line-height: 23px;
+        padding: 0px;
+        margin: 0px 0px 10px;
+    }
+    .Consultancy .Consultancy-list ul li a span {
+        margin: 0px 0px 0px;
+        padding: 5px 40px;
+        font-size: 16px;
+    }
+    .Consultancy {
+        margin: 0 auto 0px;
+    }
+    .mapouter {
+        height: 20vh;
+    }
+    .contact-us a {
+        border-radius: 5px;
+        padding: 10px;
+        gap: 10px;
+        margin-top: -40px;
+    }
 }
 
 @media(max-width:767px) {
@@ -200,7 +477,7 @@
         flex-wrap: nowrap;
     }
     .videoslider .prodiletext h1 {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         text-align: center;
     }
     .ifrom-vieos {
@@ -210,8 +487,8 @@
         position: relative;
     }
     .videoslider .textzon .imagesprofil {
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
     }
     .videoslider .textzon .imagesprofil {
         margin-bottom: 30px;
@@ -224,7 +501,7 @@
     }
     .videoslider .prodiletext h6 {
         font-size: 1rem;
-        margin: 10px 0px 0px;
+        margin: 0px 0px 10px;
         text-align: center;
     }
     .videoslider .prodiletext .btnzone {
@@ -237,21 +514,23 @@
         letter-spacing: 0.5px;
     }
     .aboutus {
-        padding: 50px 15px;
+        padding: 0px 0px;
         width: 100%;
     }
     .aboutus h6 {
         padding: 5px 20px;
         font-size: 14px;
+        margin-top: 0;
     }
     .aboutus h5 {
         margin: 20px 0px 10px;
-        font-size: 30px;
+        font-size: 25px;
     }
     .aboutus h2 {
         font-size: 1.2rem;
-        margin: 50px 0px 20px;
+        margin: 0px 0px 10px;
         font-weight: 400;
+        line-height: 26px;
     }
     .aboutus p {
         font-size: 0.9rem;
@@ -265,26 +544,158 @@
         line-height: 1.0;
     }
     .numberexpress span:after {
-        width: 80px;
-        height: 80px;
-        top: 30px;
+        width: 100px;
+        height: 100px;
+        top: 20px;
     }
     .numberexpress {
         text-align: center;
         width: 100%;
         margin-bottom: 30px;
+        margin-top: 30px;
     }
     .numberexpress h4 {
         line-height: 40px;
-        font-size: 1.8rem;
+        font-size: 1.2rem;
         text-align: center;
     }
     .aboutus .fombox {
-        margin-top: 20px;
+        margin-top: 10px;
+        margin-bottom: 0;
     }
     .contain_text_timeline_box {
         margin-left: 15px;
         padding: 10px;
         height: 100%;
+    }
+    .training-list ul {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        margin: 0;
+        padding: 0;
+    }
+    .training-list {
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+    .training-list ul li {
+        text-align: left;
+    }
+    .training-list ul li a h5 {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .training p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .Consultancy-images {
+        height: 200px;
+    }
+    .Consultancy-images h2 {
+        top: 30%;
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .Consultancy .Consultancy-list {
+        padding: 20px 10px;
+        width: 95%;
+    }
+    .Consultancy .Consultancy-list ul {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+    }
+    .Consultancy .Consultancy-list li {
+        border-left: 2px solid #ccc;
+    }
+    .Consultancy .Consultancy-list ul li a {
+        padding: 0px 0px 0px 15px;
+    }
+    .Consultancy .Consultancy-list ul li a h3 {
+        font-size: 15px;
+        margin: 0px 0px 15px;
+        line-height: 22px;
+    }
+    .Consultancy .Consultancy-list ul li a p {
+        font-size: 13px;
+        line-height: 25px;
+        padding: 0px;
+        margin: 0px 0px 10px;
+    }
+    .Consultancy .Consultancy-list ul li a span {
+        margin: 5px 0px 0px;
+        padding: 5px 50px;
+        border-radius: 20px;
+        font-size: 14px;
+    }
+    .Consultancy {
+        margin: 0 auto 0px;
+    }
+    .mapouter {
+        height: 40vh;
+    }
+    .contact-us a {
+        margin: 0px 0px 10px;
+        padding: 15px;
+        gap: 10px;
+        margin-top: 0;
+    }
+    .white-space-box .col-12.col-lg-3.offset-1 {
+        padding-left: 0;
+        margin-left: 15px;
+    }
+    .book-box-item {
+        margin: 10px 0px;
+        gap: 5px;
+        flex-direction: column;
+    }
+    .book-box-item .book_images {
+        width: 100%;
+        padding: 0px 0px;
+        display: inline-block;
+    }
+    .book_text {
+        text-align: left;
+        padding: 0px 10px 10px;
+        margin: 0;
+    }
+    .book_text h4 {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .book_text p {
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.3px;
+        margin-bottom: 10px;
+    }
+    .book_text h6 {
+        font-size: 11px;
+        line-height: 19px;
+        margin: 0px 0px 5px;
+    }
+    .rating span {
+        color: #f5df4e;
+        font-size: 12px;
+    }
+    .aboutus .white-space-box {
+        padding: 30px 15px;
+    }
+    .aboutus h2 span:after {
+        width: 80px;
+    }
+    .row.reposivedestop {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 0px;
+    }
+    .experience .owl-dots button.owl-dot,
+    .testimonials .owl-dots button.owl-dot {
+        transition: 0.5s all linear;
+        width: 7px;
+        height: 7px;
+        margin-right: 3px !important;
     }
 }
